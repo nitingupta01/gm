@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>egames.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    *{
+        margin:0;
+        box-sizing: border-box;
+        padding:0;
+    }
+    header{
+        background-color:#014c78;
+        color: white;
+        font-size: 60px;
+        padding:0px 0px 20px 20px;
+    }
+    
+    nav{
+        background-color: #0065a0;
+        font-size: 30px;
+        padding: 4px 4x 4px 4px;
+    }
+    .nav a{
+        
+        text-decoration: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white;
+
+    }
+    .nav a:hover{
+        color: black;
+        background-color: #005586;
+    }
+    .search{
+        margin-left: 50%;
+    }
+    .container{
+        margin:8px;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-auto-rows: 200px;
+        grid-gap: 10px;
+        margin-bottom: 20px;
+
+    }
+    .container a{
+        padding:10px 10px 10px 10px; 
+        text-decoration: none;
+        color: black;
+    }
+    .container a:hover{
+        color: darkred;
+    }
+    .items{
+        overflow: hidden;
+        background-color: whitesmoke;
+        box-shadow: 0.8px 2px 4px 0.1px rgb(70, 59, 59);
+    }
+    #item1{
+        align-items: center;
+
+    }
+    .blocks{
+        align-items: center;
+        padding:20px 35px 20px 35px;
+    }
+    .sub{
+        border-radius: 10px 0px;
+        margin-left: 35px;
+        margin-right: 35px;
+        background: rgb(238,174,202);
+        background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        font-size: 40px;
+        box-shadow: 0px 2px 4px 0.1px rgb(41, 41, 41);
+    }
+    .items h2{
+        text-align: center;
+    }
+    footer{
+        background-color: #014c78;
+        color:white;
+    }
+    .out{
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+    }
+    .in{
+        width: 25%;
+        padding: 20px 20px 20px 20px;
+    }
+    .last{
+        text-align: center;
+        padding:5px;
+    }
+
+
+</style>
+<body>
+    <header>
+        egames.com
+    </header>
+    <nav>
+        <div class="nav">
+            <a style="align-items: center;" href="">Home</a> <a href="">Email</a> <a href="file:///C:/Users/dell/Downloads/Resume.html" target="_blank">Contact</a> <a href="">About</a>
+            <input style="vertical-align: middle;" class="search" type="text" name="search" id="search" placeholder="Search"><input style="vertical-align: middle;" type="submit" value="submit"><a href="file:///C:/Users/dell/Downloads/SignUp.html" target="_blank">Sign Up</a>
+        </div>
+    </nav>
+    <section>
+        <div class="blocks">
+            <span class="sub">Car Games</span>
+            <span class="sub">Puzzle Games</span>
+            <span class="sub">Bus Games</span>
+            <span class="sub">Farming Games</span>
+            <span class="sub">Cake Games</span>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="items" id="item1"><a href="https://among-us.io/"><img src="https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_AmongUs.jpg" alt="among us" width="275px" height="170px"><h2 style="text-align: center;">Among Us</h2></a></div>    
+            <div class="items" id="item2"><a href="https://www.minecraft.net/en-us"><img src="https://th.bing.com/th/id/OIP.oKibnNIzEAHmna8lIqbHNgHaEK?pid=ImgDet&w=221&h=124&c=7&dpr=1.25" alt="Minecraft" width="275px" height="170px"><h2>Minecraft</h2></a></div>
+            <div class="items" id="item3"><a href="https://scribble-io.online/"><img src="https://th.bing.com/th/id/OIP.-XrNfhmP-WLhShoNRcuhRgHaDt?w=309&h=175&c=7&r=0&o=5&dpr=1.25&pid=1.7" alt="Scribbl" width="275px" height="170px"><h2>Skribbl</h2></a></div>
+            <div class="items" id="item4"><a href="https://wordscramble.eu/scrabble-online.html"><img src="https://www.pogo.com/static/media/src/assets/games/brisket/gameTile__3gIKB.jpg" width="275px" height="170px"><h2>Scrabble</h2></a></div>
+            <div class="items" id="item5"><a href="#"><img src="https://imgs2.dab3games.com/apple-shooter-video-newthumb.jpg" alt="Shooter" width="275px" height="170px"><h2>Apple Shooter</h2></a></div>
+            <div class="items" id="item6"><a href="#"><img src="https://images.crazygames.com/games/bus-parking-3d/cover-1596610984587.png?auto=format,compress&q=75&cs=strip" alt="Bus Parking" width="275px" height="170px"><h2>Bus Parking</h2></a></div>
+            <div class="items" id="item7"><a href="#"><img src="https://i2.wp.com/carracinggamesonline.org/wp-content/uploads/2021/04/maxresdefault-42.jpg?fit=1280%2C720&ssl=1" alt="Car Games" width="275px" height="170px"><h2>Racing 3D</h2></a></div>
+            <div class="items" id="item8"><a href="#"><img src="https://images.crazygames.com/games/goodgame-big-farm/cover-1587299327763.png?auto=format,compress&q=75&cs=strip" alt="Farming" width="275px" height="170px"><h2>Big Farm</h2></a></div>
+            <div class="items" id="item9"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWcUlBOfE3xKOluSAY5p8KqhPIpS0m2HnuMw&usqp=CAU" alt="Word Search" width="275px" height="170px"><h2>Word Search</h2></a></div>
+            <div class="items" id="item10"><a href="#"><img src="https://www.free-freecell-solitaire.com/solitaire/images/solitaire_preview/large/bakers_game@2x.jpg" alt="Freecell" width="275px" height="170px"><h2>Free Cell</h2></a></div>
+            <div class="items" id="item11"><a href="#"><img src="https://playpager.com/wp-content/uploads/2019/08/chess-game.jpg" alt="Chess" width="275px" height="170px"><h2>Chess</h2></a></div>
+            <div class="items" id="item12"><a href="#"><img src="https://www.indiafantasy.com/wp-content/uploads/yamsauet9bhnbtbi_1595837137.jpeg" alt="Ludo" width="275px" height="170px"><h2>Ludo</h2></a></div>
+            <div class="items" id="item13"><a href="#"><img src="https://maniafasr313.weebly.com/uploads/1/2/3/7/123751681/424667472.jpg" width="275px" height="170px"><h2>Snakes And Ladders</h2></a></div>
+            <div class="items" id="item14"><a href="#"><img src="https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555931211/shape/mentalfloss/infinite_mario_bros_6.jpg" alt="super mario" width="275px" height="170px"><h2>Super Mario</h2></a></div>
+            <div class="items" id="item15"><a href="https://www.minimilitia.mobi/"><img src="https://gamedva.com/wp-content/uploads/Mini-Militia-Doodle-Army.jpg" alt="Minimiltia" width="275px" height="170px"><h2>Mini Miltia</h2></a></div>
+        </div>
+    </section>
+    <footer>
+        <div class="out">
+            <div class="in">
+                <h2>COMPANY INFO</h2><br>
+                <ul style="list-style: none;">
+                    <li>Terms Of Policy</li>
+                    <li>Privacy Policy</li>
+                    <li>Cookies</li>
+                    <li>Cookies Consent</li>
+                </ul>
+            </div>
+            <div class="in">
+                <h2>SUPPORT</h2><br>
+                <ul style="list-style: none;">
+                <li>Help</li>
+                <li>FAQ</li>
+                </ul>
+            </div>
+            <div class="in">
+                <h2>LANGUAGES</h2><br>
+                <ul style="list-style: none;">
+                    <li>English</li>
+                    <li>Punjabi</li>
+                    <li>Hindi</li>
+                </ul>
+            </div>  
+        </div>
+        <div class="last">Copyright © 2021 E GAMES All rights reserved.</div>
+        <div class="last"> 
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-youtube-play"></i>
+        </div>
+    </footer>
+</body>
+</html>

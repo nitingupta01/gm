@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Resume</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+            body{
+            margin: 0 auto;
+            background-color:ivory;  
+            display:flex;
+            justify-content: center;
+            align-content: center;
+
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            margin-top: 5px;
+            box-shadow: 0px 2px 4px 0.8px black;
+            border-radius: 5px;
+        }
+        .profile{
+            padding: 5px 5px 5px 5px;
+            display: flex;
+            flex-direction: row;
+            background: url("https://wallpaperaccess.com/full/202976.jpg");
+            background-repeat: no-repeat;
+            align-content: center;
+            background-size: cover;
+        }
+        .box2{
+            width: 300px;
+            
+        }
+        .box1{
+            box-sizing: border-box;
+            width:200px;
+            height:200px;
+        }
+        .details{
+            display: flex;
+            flex-direction: row;
+            background-color:whitesmoke;
+        }
+        .left{
+            width: 400px;
+            padding-left: 10px;
+            padding-right: 5px;
+            margin: 5px 5px 5px 5px;
+        }
+        .right{
+            width: 400px;
+            margin: 5px 5px 5px 5px;
+            padding-left: 10px;
+            padding-right: 5px; 
+        }
+        table,th,td{
+        border: double crimson ;
+        border-collapse: separate;
+        padding:5px;
+        border-spacing: 2px;
+        border-radius: 2px;
+    }
+    th{
+        background-color: rgb(207, 55, 55);
+    }
+    td{
+        text-align: center;
+    }
+    hr{
+        height: 0px;
+    }
+    h2{
+        color:black;
+        text-shadow:1px 1px red;
+    }       
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <div class="box1">
+                <img src="UE203077 Photo.jpg" alt="User Photo" width="150px" height="150px" style="border-radius: 50%; display: block; margin-left: auto; margin-right: auto; margin-top: 20px;">
+            </div>
+            <div style="width: 300px;"></div>
+            <div class="box2">
+                <ul style="list-style-type:none; font-size: 18px;">
+                    <li style="font-size: 30px; text-shadow:1px 1px red;">Nitin Gupta</li>
+                    <br>
+                    <li><i class='fa fa-phone' style="color:rgb(42, 48, 129)"></i> &nbsp : (+91)6239220046</li>
+                    <li><i class='fa fa-envelope' style="color:rgb(42, 48, 129)"></i> &nbsp; : nitingupta6862@gmail.com</li>
+                    <li><i class='fa fa-map-marker' style="color:rgb(42, 48, 129)"></i> &nbsp; : Mudki,Ferozepur,Punjab</li>
+                    <li><i class='fa fa-linkedin-square' style="color:rgb(42, 48, 129)"></i> &nbsp; : <a href="https://www.linkedin.com/in/nitin-gupta-07/">Nitin Gupta</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="details">
+            <div class="left">
+               <h2><u>Education Details</u></h2>
+               <table style="width: 90%; margin: auto;">
+                <tr>
+                    <th>Class</th>
+                    <th>Board</th>
+                    <th>Year</th>
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><abbr title="Central Board Of Secondary Education">C.B.S.E</abbr></td>
+                    <td>2017</td>
+                    <td>10 CGPA</td>
+                </tr>
+                <tr>
+                    <td>+2</td>
+                    <td><abbr title="Central Board Of Secondary Education">C.B.S.E</abbr></td>
+                    <td>2019</td>
+                    <td>94.6%</td>
+                </tr>
+            </table>
+            <br>
+            <hr>
+            <h2><u>Hobbies</u></h2>
+                <ul style="font-size: 20px;">
+                <li>Reading Books</li>
+                <li>Watching Movies</li>
+                <li>Playing Games</li>
+                <li>Listening Music</li>
+                </ul>
+                <hr>
+                <h2><u>Strengths</u></h2>
+                <ol style="font-size: 20px;">
+                    <li>Dedicated</li>
+                    <li>Responsible</li>
+                    <li>Punctual</li>
+                    <li>Hard Working</li>
+                    <li>Will Power</li>
+                </ol>
+            </div>
+            <div class="right">
+                <h2><u>Skills</u></h2>
+                <p style="font-size: 20px;">
+                <b>Languages</b>:C , C++ , HTML<br>
+                <b>Projects</b>: Working On Online Gaming Interface
+                (Web Development Group Project)
+                </p>
+                <hr>
+                <h2><u>Carrer Objective</u></h2>
+                <p style="font-size: 17px;">
+                    To secure a respectable position in a reputed organisation and work enthusiastically in an environment of growth and excellence and self development so that i can achieve both personal and organisational goals.
+                </p>
+                <hr>
+            </div>
+        </div>
+        </div>
+    
+</body>
+</html>
